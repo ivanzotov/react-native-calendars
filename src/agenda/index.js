@@ -323,6 +323,7 @@ export default class AgendaView extends Component {
               hideExtraDays={this.state.calendarScrollable}
               firstDay={this.props.firstDay}
               monthFormat={this.props.monthFormat}
+              {...this.props.calendarList}
             />
           </Animated.View>
           {knob}
